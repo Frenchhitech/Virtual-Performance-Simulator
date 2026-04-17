@@ -7,13 +7,19 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/_Project/Scenes/Lobby.unity
-    guid: 30ac62172e7f4584194ec2a3d86c6e39
+    guid: 01a577b891a53d24db7626a47da0457c
   - enabled: 1
-    path: Assets/_Project/Scenes/Template Scenes/Template_SampleScene.unity
-    guid: 6cc5506cefbb83e4eac67b36fd2a6dc2
+    path: Assets/_Project/Scenes/Classroom_Small.unity
+    guid: 4d3e6cc24f83bae42ba428f61ac9820d
   - enabled: 1
-    path: Assets/_Project/Scenes/Template Scenes/Template_BasicScene.unity
-    guid: 32404b71183e37a45b5d502e7e25e8c3
+    path: Assets/_Project/Scenes/PitchRoom_Small.unity
+    guid: 6d1a1c166af62c745a1a8cf400e3a3f2
+  - enabled: 1
+    path: Assets/_Project/Scenes/LectureHall_Large.unity
+    guid: 3fb8e5b288944ab4a8f992191895b546
+  - enabled: 1
+    path: Assets/_Project/Scenes/TEST.unity
+    guid: 7193cea96c314314ebaaa3a595abe872
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
