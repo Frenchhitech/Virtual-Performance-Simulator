@@ -311,7 +311,7 @@ PrefabInstance:
     - target: {fileID: 8433732884708178476, guid: 7c374fcfc33dd774789988096d9de618, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1108869663}
+      objectReference: {fileID: 663604079}
     - target: {fileID: 8433732884708178476, guid: 7c374fcfc33dd774789988096d9de618, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -627,17 +627,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f21e535da3e79f94888a6ef65f303867, type: 3}
---- !u!114 &595051974 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2162225592244597122, guid: 7c374fcfc33dd774789988096d9de618, type: 3}
-  m_PrefabInstance: {fileID: 231071973}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1001 &658996405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -695,6 +684,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a86c769c3de6a6048afd6d29c71a1f60, type: 3}
+--- !u!114 &663604079 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1562099535077004862, guid: bcafce6e97b83d844ba8e5afe22bd606, type: 3}
+  m_PrefabInstance: {fileID: 1634347320}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1be77fb8b0353845add958be3a735db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LobbyMenuController
 --- !u!1 &756192406
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,17 +741,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &935189854 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8433732884708178476, guid: 7c374fcfc33dd774789988096d9de618, type: 3}
-  m_PrefabInstance: {fileID: 231071973}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!1 &1053494038
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,17 +788,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1108869663 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1562099535077004862, guid: bcafce6e97b83d844ba8e5afe22bd606, type: 3}
-  m_PrefabInstance: {fileID: 1634347320}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1be77fb8b0353845add958be3a735db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LobbyMenuController
 --- !u!1 &1249617917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,6 +985,17 @@ MonoBehaviour:
   m_Teleporting:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1293197740 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2162225592244597122, guid: 7c374fcfc33dd774789988096d9de618, type: 3}
+  m_PrefabInstance: {fileID: 231071973}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!224 &1364016460 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4670258134983952065, guid: f21e535da3e79f94888a6ef65f303867, type: 3}
@@ -1130,7 +1119,7 @@ PrefabInstance:
     - target: {fileID: 1562099535077004862, guid: bcafce6e97b83d844ba8e5afe22bd606, type: 3}
       propertyPath: timerSlider
       value: 
-      objectReference: {fileID: 935189854}
+      objectReference: {fileID: 1665524440}
     - target: {fileID: 1562099535077004862, guid: bcafce6e97b83d844ba8e5afe22bd606, type: 3}
       propertyPath: roomDropdown
       value: 
@@ -1138,7 +1127,7 @@ PrefabInstance:
     - target: {fileID: 1562099535077004862, guid: bcafce6e97b83d844ba8e5afe22bd606, type: 3}
       propertyPath: timerValueText
       value: 
-      objectReference: {fileID: 595051974}
+      objectReference: {fileID: 1293197740}
     - target: {fileID: 1562099535077004862, guid: bcafce6e97b83d844ba8e5afe22bd606, type: 3}
       propertyPath: disruptionSelect
       value: 
@@ -1416,6 +1405,17 @@ PrefabInstance:
       addedObject: {fileID: 369177341}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcafce6e97b83d844ba8e5afe22bd606, type: 3}
+--- !u!114 &1665524440 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8433732884708178476, guid: 7c374fcfc33dd774789988096d9de618, type: 3}
+  m_PrefabInstance: {fileID: 231071973}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!1001 &2073979513
 PrefabInstance:
   m_ObjectHideFlags: 0
