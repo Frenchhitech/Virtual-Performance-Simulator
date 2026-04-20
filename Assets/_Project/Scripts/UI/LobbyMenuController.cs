@@ -3,18 +3,23 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System;
+using System.Threading;
 
 public class LobbyMenuController : MonoBehaviour
 {
     
     public TMP_Dropdown roomDropdown;
     public TMP_Dropdown disruptionDropdown;
-    public Slider timerSlider;
+    public Slider timerLengthSlider;
+    public GameObject timerLengthRow;
+    public Toggle timerToggle;
     public TMP_Text timerValueText;
+    public RectTransform menuPanelRect;
 
     private void Start()
     {
-        OnTimerSliderChanged(timerSlider.value);
+        OnTimerSliderChanged(timerLengthSlider.value);
+        OnTimerEnabledChanged(timerToggle.isOn);
     }
 
     public void OnStartPressed()
@@ -29,7 +34,8 @@ public class LobbyMenuController : MonoBehaviour
 
         session.roomType = (RoomType)roomDropdown.value;
         session.disruptionLevel = (DisruptionLevel)disruptionDropdown.value;
-        session.timerLength = Mathf.RoundToInt(timerSlider.value);
+        session.timerEnabled = timerToggle.isOn;
+        session.timerLength = Mathf.RoundToInt(timerLengthSlider.value);
 
         LoadScene();
     }
@@ -52,5 +58,11 @@ public class LobbyMenuController : MonoBehaviour
         }
 
         timerValueText.text = $"{minutes} min";
+    }
+
+    public void OnTimerEnabledChanged(bool isOn)
+    {
+        timerLengthRow.SetActive(isOn);
+        LayoutRebuilder.ForceRebuildLayoutImmediate(menuPanelRect);
     }
 }
