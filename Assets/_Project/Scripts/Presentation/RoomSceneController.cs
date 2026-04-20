@@ -9,6 +9,7 @@ public class RoomSceneController : MonoBehaviour
 
         Debug.Log("Room: " + session.roomType);
         Debug.Log("Audience Disruption: " + session.disruptionLevel);
+        Debug.Log("Timer Enabled: " + session.timerEnabled);
         Debug.Log("Timer Length: " + session.timerLength);
     }
 }

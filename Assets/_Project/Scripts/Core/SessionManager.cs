@@ -7,6 +7,7 @@ public class SessionManager : MonoBehaviour
 
     public RoomType roomType;
     public DisruptionLevel disruptionLevel;
+    public bool timerEnabled = false;
     public int timerLength = 1;
 
     private void Awake()
