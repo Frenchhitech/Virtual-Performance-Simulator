@@ -2,8 +2,6 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using System;
-using System.Threading;
 
 public class LobbyMenuController : MonoBehaviour
 {
