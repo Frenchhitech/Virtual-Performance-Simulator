@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/LectureHall_Large.unity
     guid: 3fb8e5b288944ab4a8f992191895b546
   - enabled: 1
-    path: Assets/_Project/Scenes/TEST.unity
+    path: Assets/_Project/Scenes/Slides_Prototye.unity
     guid: 7193cea96c314314ebaaa3a595abe872
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
